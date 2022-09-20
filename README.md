@@ -1,7 +1,7 @@
 # java-problem-solving
 
 ## Leetcode
-Difficulty: 🟢(Easy), 🟡(Medium), 🔴(Hard)
+Difficulty: 🟢(Easy), 🟡(Medium), 🔴(Hard)  
 Done: ⭕️(Nailed it), ❌(Refeat)
 
 |Nr.|Title|Difficulty|Solution|Done|
