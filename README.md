@@ -1,5 +1,6 @@
 # java-problem-solving
 
+
 ## Leetcode
 Difficulty: 🟢(Easy), 🟡(Medium), 🔴(Hard)  
 Done: ⭕️(Nailed it), ❌(Refeat)
@@ -14,11 +15,18 @@ Done: ⭕️(Nailed it), ❌(Refeat)
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|🟡|[🗝](Leetcode_5_LongestPalindromicSubstring.md)|❌|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|🟢|[🗝](Leetcode_1_TwoSum.md)||
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|🔴|[🗝](Leetcode_42_TrappingRainWater.md)||
+|15|[Three Sum](https://leetcode.com/problems/3sum/)|🟡|||
+|561|[Array Partition 1](https://leetcode.com/problems/array-partition/)|🟢|||
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|🟡|||
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|🟢|||
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|🟢|||
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|🟢|||
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|🟢|||
+| |[]()||||
 
-## 프로그래머스
-Difficulty: 🟢(Easy), 🟡(Medium), 🔴(Hard)  
-Done: ⭕️(Nailed it), ❌(Refeat)
+## Programmers
 
-|Nr.|Title|Difficulty|Solution|Done|
-|:---:|---|:---:|:---:|:---:|
-|1845|[폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)|🟢|[🗝](Programmers_1845_폰켓몬.md)| |
+| Nr.  | Title                                                 | Lv. |Solution|Done|
+|:----:|-------------------------------------------------------|:---:|:---:|:---:|
+| 1845 | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |  1  |[🗝](Programmers_1845_폰켓몬.md)|⭕️|
+| |[]()||||
