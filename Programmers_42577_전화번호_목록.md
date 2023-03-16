@@ -1,36 +1,26 @@
-# 코딩테스트 연습 > 해시 > 폰켓몬
+# 코딩테스트 연습 > 해시 > 전화번호 목록
 
-- [Link to Problem](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+- [Link to Problem](https://school.programmers.co.kr/learn/courses/30/lessons/42577?language=java)
 
 ## Solution
-`min(nums 배열 속 유니크한 숫자의 갯수, N/2)`가 정답이다.
-nums 배열 속 유니크한 숫자의 갯수를 구하기 위해 Set을 사용하였다.
-Set은 중복을 허용하지 않도록 데이터를 저장하기 때문이다.
+전화번호 목록을 해시테이블에 추가한다. 
+이 때, 접두어가 일치하는 것이 있는 지 확인하기 위해 추가할 전화번호 값을 첫번째 단어부터 마지막 단어까지 비교하면서 접두어가 존재하는 지 확인한다. 
 
 ```java
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 class Solution {
-    // 시간 복잡도 - 평균 O(1), 최악 O(n)
-    // 공간 복잡도 - O(n)
-    public int solution(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        // 1. 해시 테이블 추가 시간 복잡도: 평균 O(1), 최악 O(n)
-        for (int num : nums) {
-            set.add(num);
-        }
-        return Math.min(set.size(), nums.length / 2);
-    } // 총 시간 복잡도: O(1), 총 공간 복잡도: O(n)
+    public boolean solution(String[] phone_book) {
+        Set<String> set = new HashSet<>();
+    }
 }
 ```
 
 ## 시간복잡도와 공간복잡도
-~해시 테이블 추가가 가장 복잡도가 큰 연산이다.~
-- 시간복잡도: 평균 O(1), 최악 O(n)
+- 시간복잡도: 평균 O(n), 최악 O(n^2)
 - 공간복잡도: O(n)
 
--> 해시 테이블 추가의 시간 복잡도는 O(1) * for-loop의 시간복잡도 O(n)이라 시간복잡도는 O(n)이다.
 ## 참고 자료
 
 ### Java의 Set 구현체별 특징 - 순서보장 특징이 다름
