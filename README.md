@@ -26,8 +26,11 @@ Done: ⭕️(Nailed it), ❌(Refeat)
 
 ## Programmers
 
-| Nr.  | Title                                                 | Lv. |Solution|Done|
-|:----:|-------------------------------------------------------|:---:|:---:|:---:|
-| 1845 | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |  1  |[🗝](Programmers_1845_폰켓몬.md)|⭕️|
-| 42576 |[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)| 1| [🗝](Programmers_42576_완주하지_못한_선수.md) |⭕️|
-| 42577 |[전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577?language=java)|2| [🗝](Programmers_42577_전화번호_목록.md) |❌|
+|  Nr.  | Title                                                                                    | Lv. |               Solution                |Done|
+|:-----:|------------------------------------------------------------------------------------------|:---:|:-------------------------------------:|:---:|
+| 1845  | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)                    |  1  |     [🗝](Programmers_1845_폰켓몬.md)     |⭕️|
+| 42576 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)            |  1  | [🗝](Programmers_42576_완주하지_못한_선수.md) |⭕️|
+| 42577 | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577?language=java) |  2  |  [🗝](Programmers_42577_전화번호_목록.md)   |⭕️|
+| 42578 | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578)                    |  2  |     [🗝](Programmers_42578_위장.md)     |⭕️|
+| 42579 | [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)                 |  3  |   [🗝](Programmers_42579_베스트앨범.md)    |❌|
+
