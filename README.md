@@ -33,5 +33,7 @@ Done: ⭕️(Nailed it), ❌(Refeat)
 | 42577 | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577?language=java) |  2  |  [🗝](Programmers_42577_전화번호_목록.md)   |   ⭕️   |
 | 42578 | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578)                    |  2  |     [🗝](Programmers_42578_위장.md)     |   ⭕️   |
 | 42579 | [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)                 |  3  |   [🗝](Programmers_42579_베스트앨범.md)    |   ❌    |
-| 12906 | [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) |  1  |  [🗝](Programmers_12906_같은_숫자는_싫어.md)   |   ⭕    |
+| 12906 | [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)             |  1  | [🗝](Programmers_12906_같은_숫자는_싫어.md)  |   ⭕    |
+| 42586 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)                  |  2  |    [🗝](Programmers_42586_기능개발.md)    |   ⭕    |
+| 12909 | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)                |  2  |   [🗝](Programmers_12909_올바른_괄호.md)   |   ⭕    |
 

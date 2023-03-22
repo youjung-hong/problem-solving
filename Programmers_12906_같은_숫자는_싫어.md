@@ -1,4 +1,4 @@
-# 코딩테스트 연습 > 해시 > 베스트앨범
+# 코딩테스트 연습 > 스택/큐 > 같은 숫자는 싫어
 
 - [Link to Problem](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
 
