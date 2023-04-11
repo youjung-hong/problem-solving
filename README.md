@@ -40,4 +40,4 @@ Done: ⭕️(Nailed it), ❌(Refeat)
 | 42583 | [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)            |  2  | [🗝](Programmers_42583_다리를_지나는_트럭.md) |                 ⭕                 |
 | 42584 | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)                  |  2  |      [🗝]다rammers_42584_주식가격.md)      |                 ⭕                 |
 | 42748 | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)                  |  1  |    [🗝](Programmers_42748_K번째수.md)    | ❌ - mergesort 구현을 보고 풀어서 다시 풀어야 함 |
-| 42746 | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)                  |  1  |   [🗝](Programmers_42746_가장_큰_수.md)   |                ⭕                  |
+| 42746 | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)                  |  2  |   [🗝](Programmers_42746_가장_큰_수.md)   |                ⭕                  |
