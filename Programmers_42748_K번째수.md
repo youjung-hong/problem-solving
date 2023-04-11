@@ -1,4 +1,4 @@
-간# 코딩테스트 연습 > 스택/큐 > 프린터
+간# 코딩테스트 연습 > 정렬 > K번째수
 
 - [Link to Problem](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
 
