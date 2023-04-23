@@ -43,4 +43,5 @@ Done: ⭕️(Nailed it), ❌(Refeat)
 | 42746 | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)                |  2  |   [🗝](Programmers_42746_가장_큰_수.md)   |                ⭕                  |
 | 42747 | [H인덱스](https://school.programmers.co.kr/learn/courses/30/lessons/42747)                  |  2  |    [🗝](Programmers_42747_H인덱스.md)    |                  ⭕                |
 | 42626 | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)                  |  2  |    [🗝](Programmers_42626_더_맵게.md)    |                    ⭕              |
-| 42627 | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)              |  3  |                   [                   |                                   |
+| 42627 | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)              |  3  |  [🗝](Programmers_42627_디스크_컨트롤러.md)  |                  ❌                 |
+| 42628 | [이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)               |  3  |  [🗝](Programmers_42628_이중우선순위큐.md)   |                  ⭕                 |
