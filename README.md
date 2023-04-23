@@ -45,3 +45,4 @@ Done: ⭕️(Nailed it), ❌(Refeat)
 | 42626 | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)                  |  2  |    [🗝](Programmers_42626_더_맵게.md)    |                    ⭕              |
 | 42627 | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)              |  3  |  [🗝](Programmers_42627_디스크_컨트롤러.md)  |                  ❌                 |
 | 42628 | [이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)               |  3  |  [🗝](Programmers_42628_이중우선순위큐.md)   |                  ⭕                 |
+| 86491 | [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)                |  1  |   [🗝](Programmers_86491_최소직사각형.md)   |    ⭕                                 |
