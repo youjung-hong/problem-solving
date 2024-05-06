@@ -48,3 +48,9 @@ Done: ⭕️(Nailed it), ❌(Refeat)
 | 86491 | [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)                |  1  |   [🗝](Programmers_86491_최소직사각형.md)   |    ⭕                                 |
 | 42840 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)                  |  1  |    [🗝](Programmers_42840_모의고사.md)    |            ⭕                          |
 | 42839 | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)                 |  2  |   [🗝](Programmers_42839_소수_찾기.md)    |           ❌                           |
+
+## Backjoon
+
+| Nr. | Title | Solution | Done |
+|:---:|:-----:|:--------:|:----:|
+| 10828 | [스택](https://www.acmicpc.net/problem/10828) | [🗝](Backjoon/10828.py), [🛸]() | ⭕️ |
