@@ -26,10 +26,10 @@ def create_graph(n, m):
 def dfs(graph, start):
     if start not in graph:
         print(start)
-        return
+        return [str(start)]
 
     stack = [start]
-    visited = []
+    visited = set()
     ans = []
 
     while stack:
@@ -37,7 +37,7 @@ def dfs(graph, start):
         if node in visited:
             continue
 
-        visited.append(node)
+        visited.add(node)
         ans.append(str(node))
 
         for n in graph[node][::-1]:
@@ -45,15 +45,17 @@ def dfs(graph, start):
                 stack.append(n)
 
     print(' '.join(ans))
+    return ans
 
 
 def bfs(graph, start):
     if start not in graph:
         print(start)
-        return
+        return [str(start)]
 
     queue = [start]
-    visited = [start]
+    visited = set()
+    visited.add(start)
     ans = []
 
     while queue:
@@ -62,24 +64,17 @@ def bfs(graph, start):
 
         for n in graph[node]:
             if n not in visited:
-                visited.append(n)
+                visited.add(n)
                 queue.append(n)
 
     print(' '.join(ans))
+    return ans
 
 
 # 정점의 갯수 n, 간선의 갯수 m, 탐색을 시작할 정점의 번호 v를 입력받는다.
 n, m, v = map(int, sys.stdin.readline().split())
 graph = create_graph(n, m)
 
-# n, m, v = 4, 5, 1
-# graph = [[], [2, 3, 4], [1, 4], [1, 4], [1, 2, 3]]
-
-# n, m, v = 5, 5, 3
-# graph = [[], [2, 3], [1, 5], [1, 4], [3, 5], [2, 4]]
-
-# n, m, v = 1000, 1, 1000
-# graph = {999: [1000], 1000: [999]}
 # 정점 v부터 dfs
 dfs(graph, v)
 
