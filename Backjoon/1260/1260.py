@@ -23,49 +23,47 @@ def create_graph(n, m):
     return graph
 
 
-def dfs(graph, v):
-    visited = set()
+def dfs(graph, start):
+    if start not in graph:
+        print(start)
+        return
 
-    stack = [v]
-
+    stack = [start]
+    visited = []
     ans = []
+
     while stack:
         node = stack.pop()
         if node in visited:
             continue
 
-        visited.add(node)
+        visited.append(node)
         ans.append(str(node))
 
-        if node not in graph:
-            continue
-
-        for i in range(len(graph[node]) - 1, -1, -1):
-            if graph[node][i] not in visited:
-                stack.append(graph[node][i])
+        for n in graph[node][::-1]:
+            if n not in visited:
+                stack.append(n)
 
     print(' '.join(ans))
-    return ans
 
 
-def bfs(graph, v):
-    visited = set()
+def bfs(graph, start):
+    if start not in graph:
+        print(start)
+        return
 
-    queue = [v]
-    visited.add(v)
-
+    queue = [start]
+    visited = [start]
     ans = []
+
     while queue:
         node = queue.pop(0)
         ans.append(str(node))
 
-        if node not in graph:
-            continue
-
         for n in graph[node]:
             if n not in visited:
+                visited.append(n)
                 queue.append(n)
-                visited.add(n)
 
     print(' '.join(ans))
 
