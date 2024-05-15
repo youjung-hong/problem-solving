@@ -2,7 +2,7 @@ import sys
 
 def bfs(arr, i, j, visited):
     queue = [(i, j)]
-    visited[i][j] = 1
+    arr[i][j] = 0
     count = 1
 
     while queue:
@@ -11,25 +11,25 @@ def bfs(arr, i, j, visited):
         # 위
         if n > 0 and arr[n - 1][m] == '1' and visited[n - 1][m] == 0:
             count += 1
-            visited[n - 1][m] = 1
+            arr[n - 1][m] = 0
             queue.append((n - 1, m))
 
         # 아래
         if n < len(arr)-1 and arr[n+1][m] == '1' and visited[n+1][m] == 0:
             count += 1
-            visited[n+1][m] = 1
+            arr[n+1][m] = 0
             queue.append((n+1, m))
 
         # 오른쪽
         if m < len(arr) - 1 and arr[n][m + 1] == '1' and visited[n][m + 1] == 0:
             count += 1
-            visited[n][m + 1] = 1
+            arr[n][m + 1] = 0
             queue.append((n, m + 1))
 
         # 왼쪽
         if m > 0 and arr[n][m - 1] == '1' and visited[n][m - 1] == 0:
             count += 1
-            visited[n][m - 1] = 1
+            arr[n][m - 1] = 1
             queue.append((n, m - 1))
 
 
